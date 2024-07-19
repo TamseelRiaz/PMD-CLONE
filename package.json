@@ -1,15 +1,15 @@
 {
-"name": "NewAcc",
+"name": "newAcc",
 "version": "2.1.2",
-"description": "NewAcc has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+"description": "newAcc has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
 "main": "start.js",
 "scripts": {
-"start": "pm2 start start.js --deep-monitoring --attach --name newacc",
-"stop": "pm2 stop newacc",
-"restart": "pm2 restart newacc"
+"start": "pm2 start start.js --deep-monitoring --attach --name newAcc",
+"stop": "pm2 stop newAcc",
+"restart": "pm2 restart newAcc"
 },
 "dependencies": {
-"@whiskeysockets/baileys": "git+https://github.com/PMD-API-UPDATE/Baileys6.6.0.git",
+"@whiskeysockets/baileys": "git+https://github.com/PMD-API-UPDATE/Baileys-6.6.0.git",
 "@adiwajshing/keyed-db": "^0.2.4",
 "wa_set_pkg": "1.0.1",
 "gemini-ai" : "latest",
@@ -20,6 +20,7 @@
 "imgur": "latest",
 "mathjs": "^12.0.0",
 "fraction.js": "^4.3.7",
+"unzipper":"0.12.2",
 "chart.js": "^4.4.0",
 "qs": "^6.10.1",
 "pino": "^7.0.5",
